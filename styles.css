@@ -1,0 +1,172 @@
+
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 550px;
+    font-size: 300%;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    color: #333;
+    
+    
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(backroundimg/Japan-2107x1406.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    
+    
+
+   
+    
+}
+
+
+
+
+body {
+    background-color:tan;
+    margin: 0
+    ;
+}
+
+.foodrecipe1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+  
+.foodrecipe1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(backroundimg/hokkaido-shingen-ramen-53146.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+    
+}
+
+
+
+
+
+
+.foodrecipe2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    overflow: hidden;    
+    
+}
+
+
+.foodrecipe2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(backroundimg/534-DSC01284.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+    
+}
+
+.foodrecipe3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+    
+.foodrecipe3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(backroundimg/Shutterstock_751789537-min.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+    
+}
+
+
+
+h2 {
+    background-color: rgb(203, 93, 38);
+    border-radius: 15px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    color: #333;
+}
+
+.circle {
+    border-radius: 30%;
+    object-fit: cover;
+    outline-style: solid;
+}
+
+.foodrecipe4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    padding-left:20px ;
+    padding-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+.foodrecipe4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(backroundimg/686129d4-71e8-49f1-9d3d-a595c67e4328_5d38dfdf.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+    
+}
